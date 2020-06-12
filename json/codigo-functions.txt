@@ -1,0 +1,105 @@
+#Código em Pyton
+#Dados de 15/05/20
+#fonte: https://covid.saude.gov.br/
+
+import sys
+def main(dict):
+	estadosBR = ''
+	casos = 0.0
+	obitos = 0.0
+	confBrasil = 0.0
+	obitosBrasil = 0.0
+	if 'estadosBR' in dict:
+		estadosBR = dict['estadosBR']
+		print(estadosBR)
+	else:
+		{'msg':'Não foi possível identificar o Estado Brasileiro.'}		
+	if estadosBR == 'Acre' or estadosBR == 'AC':
+		casos = 1.785
+		obitos = 57
+	elif estadosBR == 'Alagoas' or estadosBR == 'AL':
+		casos = 3.212
+		obitos = 187
+	elif estadosBR == 'Amapa' or estadosBR == 'AP':
+		casos = 3.630
+		obitos = 103
+	elif estadosBR == 'Amazonas' or estadosBR == 'AM':
+		casos = 18.392
+		obitos = 1.331
+	elif estadosBR == 'Bahia' or estadosBR == 'BA':
+		casos = 8.121
+		obitos = 281
+	elif estadosBR == 'Ceara' or estadosBR == 'CE':
+		casos = 22.490
+		obitos = 1.476
+	elif estadosBR == 'Distrito Federal' or estadosBR == 'Brasilia' or estadosBR == 'DF':
+		casos = 3.787
+		obitos = 55
+	elif estadosBR == 'Espirito Santo' or estadosBR == 'SE':
+		casos = 6.198
+		obitos = 260
+	elif estadosBR == 'Goias' or estadosBR == 'GO':
+		casos = 1.572
+		obitos = 67
+	elif estadosBR == 'Maranhao' or estadosBR == 'MA':
+		casos = 10.739
+		obitos = 496
+	elif estadosBR == 'Mato Grosso do Sul' or estadosBR == 'MS':
+		casos = 479
+		obitos = 14
+	elif estadosBR == 'Mato Grosso' or estadosBR == 'MT':
+		casos = 779
+		obitos = 26
+	elif estadosBR == 'Minas Gerais' or estadosBR == 'Minas' or estadosBR == 'MG':
+		casos = 4.196
+		obitos = 146
+	elif estadosBR == 'Para' or estadosBR == 'PA':
+		casos = 12.109
+		obitos = 1.145
+	elif estadosBR == 'Paraiba' or estadosBR == 'PB':
+		casos = 3.739
+		obitos = 170
+	elif estadosBR == 'Parana' or estadosBR == 'PR':
+		casos = 2.139
+		obitos = 120
+	elif estadosBR == 'Pernambuco' or estadosBR == 'PE':
+		casos = 16.209
+		obitos = 1.381
+	elif estadosBR == 'Piaui' or estadosBR == 'PI':
+		casos = 1.905
+		obitos = 60
+	elif estadosBR == 'Rio de Janeiro' or estadosBR == 'RJ':
+		casos = 19.987
+		obitos = 2.438
+	elif estadosBR == 'Rio Grande do Norte' or estadosBR == 'RN':
+		casos = 2.786
+		obitos = 122
+	elif estadosBR == 'Rio Grande do Sul' or estadosBR == 'RS':
+		casos = 3.597
+		obitos = 126
+	elif estadosBR == 'Rio Grande do Norte' or estadosBR == 'RN':
+		casos = 2.786
+		obitos = 122
+	elif estadosBR == 'Rondonia' or estadosBR == 'RO':
+		casos = 1.789
+		obitos = 62
+	elif estadosBR == 'Roraima' or estadosBR == 'RR':
+		casos = 1.589
+		obitos = 40
+	elif estadosBR == 'Sao Paulo' or estadosBR == 'SP':
+		casos = 58.378
+		obitos = 4.501
+	elif estadosBR == 'Santa Catarina' or estadosBR == 'SC':
+		casos = 4.562
+		obitos = 79
+	elif estadosBR == 'Sergipe' or estadosBR == 'SE':
+		casos = 2.868
+		obitos = 50
+	elif estadosBR == 'Tocantins' or estadosBR == 'TO':
+		casos = 1.179
+		obitos = 24
+	else:
+		return {'msg':'Não foi possível identificar o Estado '+ estadosBR}
+	confBrasil = 254.220
+	obitosBrasil = 16.792
+	return {'estadosBR':estadosBR, 'casos':casos, 'obitos':obitos, 'confBrasil':confBrasil, 'obitosBrasil':obitosBrasil}

@@ -1,0 +1,64 @@
+/* -----Estilo padrão das paginas-----*/
+
+
+.blog-header-logo{
+	font-style:italic;
+	font-family: serif;
+	font-size:21px;
+	font-weight: bold	
+}
+
+
+
+/* cor fundo menu 2*/
+.site-header{
+	background-color:#000000d9;
+}
+
+/* cor letra menu*/
+.py-2{
+	color:#ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------Dimensões de tela ----------------*/
+
+@media screen and (max-width:720px) {
+  .weekdays li, .dias li {
+	  width: 13.1%;
+	  }}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .dias li {
+	  width: 12.5%;
+	  }  
+  .dias li .agendado {
+	  padding: 2px;}
+	  }
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .dias li {
+	  width: 12.2%;}
+	  }
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="content-type" content="text/html">		
+		<meta nome="description" content="Desafio prático de produzir uma ferramenta de orientação sobre O COVID-19, explorando habilidades técnicas, mas também é um desafio para a contribuição do bem estar social.">				
+		<title>Anti-Coronavírus</title>
+		
+		<!--lincando CSS de um arquivo externo-->		
+		<link rel="stylesheet" href="css/login.css">
+		
+		<!--incone/imagem que fica na indexação da web-->
+		<link rel="shortcut icon" href="imagem/icon.png" type="image/x-icon">
+
+		<!--lincando o Bootstrap-->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">		
+		
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+				
+		<!--pacotes de icones -->
+		<script src="https://kit.fontawesome.com/1d84149b75.js" crossorigin="anonymous"></script>		
+	</head>
+  
+  <body background="imagem/map1.jpg">
+	
+	<!-- ===============1 Conteúdo : Login e senha =============== -->
+		<div class="conteudo1">
+			<div class="d-flex justify-content-center h-100">
+				<div class="card">
+					<div class="card-header">
+						<h2>Covid-19</h2>
+						<h3>Fique Bem Informado!</h3>
+					</div>					
+					<div class="card-body">
+						<form action="interface/home.html" method="post">
+							<div class="input-group form-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-user"></i></span>
+								</div>
+								<input type="text" class="form-control" required="required" placeholder="login">						
+							</div>
+							<div class="input-group form-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-key"></i></span>
+								</div>
+								<input type="password" class="form-control" required="required" placeholder="senha">
+							</div>
+							<div class="form-group">
+								<input type="submit" value="Entrar" class="btn float-right login_btn"/>
+								<input type="reset" value="Cancelar" class="btn float-left login_btn">
+							</div>
+						</form>
+					</div>
+					<div class="card-footer">					
+						<p><a href="interface/cadastro.html">Cadastrar</a>|<a href="interface/reset.html"> Recuperar senha</a></p><br>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	
+	  <!-- Rodapé -->
+	<footer class="container">		
+		<p>&copy; Centro Universitário de Belo Horizonte &middot; <strong>UNIBH</strong> . Quer saber mais? Visite no <a href="#">@alanEremita</a>, <a href="#">@jessicaPaula</a>, <a href="#">@lazzaroLelis</a>, <a href="#">@leandroGama<a>.</p>
+	</footer>
+
+	</body>
+</html>

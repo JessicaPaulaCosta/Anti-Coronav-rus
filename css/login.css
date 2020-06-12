@@ -1,0 +1,87 @@
+/* ------ Estilo da página login ------*/
+
+body{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	font-family: 'Numans', sans-serif;
+}
+.container{
+	height: 100%;
+	align-content: center;
+}
+.card{
+	height: 370px;
+	margin-top: 150px;
+	margin-bottom: auto;
+	width: 400px;
+	
+}
+.card-body{
+	padding-top:30px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+/* ------ Conteiner login ------*/
+h1.titulo1{
+	font-style:italic;
+	font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+	margin: 208px 0px 0 26%;
+}
+p.texto1{
+	font-size: 1.25rem;
+    font-weight: 300;
+	margin-top: 0;
+    margin-bottom: 1rem;
+	margin-left: 30%;
+}
+
+p#btnAcessar{
+	margin-left: 41%;
+}
+
+
+
+
+
+
+/*rodapé*/
+.container{
+	color:#9e9e9e;
+}
+a:link, a:visited, a:active {
+	text-decoration: nome;
+	color:#009688;
+	}
+	
+a:hover {
+	text-decoration: underline;	
+	}
+
+
+/*----------------Dimensões de tela ----------------*/
+
+@media screen and (max-width:720px) {
+  .weekdays li, .dias li {
+	  width: 13.1%;
+	  }}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .dias li {
+	  width: 12.5%;
+	  }  
+  .dias li .agendado {
+	  padding: 2px;}
+	  }
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .dias li {
+	  width: 12.2%;}
+	  }

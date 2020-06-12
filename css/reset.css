@@ -1,0 +1,57 @@
+/* ------ Estilo da página resete redefinir senha ------*/
+
+body{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+.titulo-Resete {
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 106px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.conteudo-forme {
+	display: block;
+	margin-inline-start: 7%;
+    margin-inline-end: 33%;
+    padding-block-start: 0.35em;
+	padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+	
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+}
+.btn_submit{
+    margin: 17px 0 0 100px;
+}
+/* cor*/
+span{
+	color:red;
+}
+
+
+
+
+/* ===== ===== ===== Estilo pagina faq|cadstro ===== ===== ===== */
+
+.formulario1{
+	background-image: url("../imagem/xxx.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position:0;
+	margin-top: -21px;
+}
+
+
+
+
+

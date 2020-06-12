@@ -1,0 +1,29 @@
+
+
+/* ===== ===== ===== Estilo pagina faq|cadastro ===== ===== ===== */
+
+.py-4{
+	padding-left: 17%;
+} 
+	  
+.textoRodape{	
+	text-align: -webkit-center;
+	margin-top: 18px;  
+}  
+	  
+	  
+	  
+/* ===== Tamanho das telas ===== */
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+}
+
+
+
+
+
+
+
+

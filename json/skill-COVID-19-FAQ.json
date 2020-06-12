@@ -1,0 +1,3218 @@
+{
+  "intents": [
+    {
+      "intent": "Origem-do-nome",
+      "examples": [
+        {
+          "text": "é covid uma abreviação?"
+        },
+        {
+          "text": "por que covid-19 é o nome para esta doença?"
+        },
+        {
+          "text": "Por que a doença está sendo chamada de doença de coronavírus 2019, COVID-19?"
+        },
+        {
+          "text": "o vírus corona é o mesmo que o covid-19?"
+        },
+        {
+          "text": "por que o covid-19 foi usado para nomear essa doença?"
+        },
+        {
+          "text": "Por que o nome"
+        }
+      ],
+      "description": "Responda como o nome desse vírus e doença surgiu."
+    },
+    {
+      "intent": "estatisticas",
+      "examples": [
+        {
+          "text": "Quantas pessoas já pegaram o vírus ?"
+        },
+        {
+          "text": "Quantas pessoas já infectadas?"
+        },
+        {
+          "text": "Qual a taxa de mortalidade?"
+        },
+        {
+          "text": "Quantos casos já confirmados?"
+        }
+      ],
+      "description": "Monitoramento de casos confirmados no Brasil para o COVID-19"
+    },
+    {
+      "intent": "Fechamento-da-escola",
+      "examples": [
+        {
+          "text": "como sei se minha escola está fechando?"
+        },
+        {
+          "text": "por que as escolas estão fechando?"
+        },
+        {
+          "text": "quem decide se a escola vai fechar?"
+        },
+        {
+          "text": "fechamento da escola"
+        },
+        {
+          "text": "As escolas serão dispensadas se houver um surto na minha comunidade?"
+        }
+      ],
+      "description": "Informações sobre fechamento de escolas"
+    },
+    {
+      "intent": "Escola-de-casa",
+      "examples": [
+        {
+          "text": "como faço para manter meu filho envolvido nos trabalhos escolares?"
+        },
+        {
+          "text": "Escola de casa"
+        },
+        {
+          "text": "Preciso de dicas para aprender em casa"
+        },
+        {
+          "text": "Enquanto a escola estiver fora, como posso ajudar meu filho a continuar aprendendo?"
+        },
+        {
+          "text": "Dicas para a agenda do meu filho quando a escola é cancelada"
+        }
+      ],
+      "description": "Condução de educação à distância enquanto a escola é demitida"
+    },
+    {
+      "intent": "Casos-confirmados",
+      "examples": [
+        {
+          "text": "quantos casos em confirmados"
+        },
+        {
+          "text": "quantos casos?"
+        },
+        {
+          "text": "já tem quantos casos confirmados?"
+        }
+      ],
+      "description": "Casos confirmados com o corona vírus"
+    },
+    {
+      "intent": "LavarMao",
+      "examples": [
+        {
+          "text": "o desinfetante para as mãos é eficaz contra a covid-19?"
+        },
+        {
+          "text": "Devo usar água e sabão ou um desinfetante para as mãos para proteger contra o COVID-19?"
+        },
+        {
+          "text": "lavar minhas mãos ajudará a me proteger?"
+        },
+        {
+          "text": "devo continuar lavando minhas mãos"
+        },
+        {
+          "text": "Como posso me cuidar"
+        },
+        {
+          "text": "como lavo minhas mãos corretamente?"
+        },
+        {
+          "text": "a lavagem frequente das mãos ajuda?"
+        },
+        {
+          "text": "Dicas para lavar as mãos"
+        },
+        {
+          "text": "produtos para lavar as mãos"
+        }
+      ],
+      "description": "Orientação para lavagem das mãos"
+    },
+    {
+      "intent": "lockdown",
+      "examples": [
+        {
+          "text": "O que é bloqueio total?"
+        },
+        {
+          "text": "O que é lockdown?"
+        },
+        {
+          "text": "fechamento das lojas e comércio"
+        },
+        {
+          "text": "isolamento social"
+        }
+      ],
+      "description": "Bloqueio total ou confinamento"
+    },
+    {
+      "intent": "Propagacao",
+      "examples": [
+        {
+          "text": "como o vírus se espalhou da China?"
+        },
+        {
+          "text": "Como se espalha"
+        },
+        {
+          "text": "Como o vírus se espalha?"
+        },
+        {
+          "text": "o vírus corona se espalha"
+        },
+        {
+          "text": "o vírus corona é contagioso?"
+        }
+      ],
+      "description": "Informações sobre como o COVID-19 se espalha"
+    },
+    {
+      "intent": "Pessoa-para-pessoa",
+      "examples": [
+        {
+          "text": "Posso pegá-lo do meu amigo?"
+        },
+        {
+          "text": "O vírus Corona (COVID-19) pode se espalhar de pessoa para pessoa?"
+        },
+        {
+          "text": "Por que é tão contagioso?"
+        },
+        {
+          "text": "Alguém que teve o COVID-19 pode espalhar a doença para outras pessoas?"
+        },
+        {
+          "text": "Como o vírus Corona (COVID-19) se espalha?"
+        },
+        {
+          "text": "como pega"
+        },
+        {
+          "text": "como pego"
+        },
+        {
+          "text": "pessoa para pessoa"
+        },
+        {
+          "text": "De quem posso pegar?"
+        },
+        {
+          "text": "Por que o vírus Corona (COVID-19) está se espalhando entre as pessoas?"
+        }
+      ],
+      "description": "Informações sobre como o Coronavirus se espalha de pessoa para pessoa"
+    },
+    {
+      "intent": "Funeral",
+      "examples": [
+        {
+          "text": "Devo evitar funerais?"
+        },
+        {
+          "text": "Posso ir a um funeral?"
+        },
+        {
+          "text": "Posso ir a um velório?"
+        },
+        {
+          "text": "Estou em risco se for a um velório ou serviço de visitação de alguém que morreu de COVID-19?"
+        },
+        {
+          "text": "Devo evitar velório?"
+        },
+        {
+          "text": "Os funerais são seguros?"
+        },
+        {
+          "text": "Posso ir ao velório de alguém que morreu de vírus Corona (COVID-19)?"
+        },
+        {
+          "text": "Os velórios são seguros?"
+        },
+        {
+          "text": "Posso ir ao funeral de alguém que morreu de vírus Corona (COVID-19)?"
+        }
+      ],
+      "description": "Orientação de presença em velório"
+    },
+    {
+      "intent": "Risco-Pet",
+      "examples": [
+        {
+          "text": "os animais podem transmitir?"
+        },
+        {
+          "text": "meu cachorro pode transmitir?"
+        },
+        {
+          "text": "O vírus corona pode afetar os animais de estimação?"
+        },
+        {
+          "text": "Devo me preocupar com animais de estimação ou outros animais e com o COVID-19?"
+        },
+        {
+          "text": "Meus animais de estimação estão em risco?"
+        }
+      ],
+      "description": "Orientação sobre risco potencial para animais de estimação"
+    },
+    {
+      "intent": "ReduceFamilyRisk",
+      "examples": [
+        {
+          "text": "Que medidas minha família pode tomar para reduzir o risco de contrair COVID-19?"
+        },
+        {
+          "text": "Reduzir o risco familiar"
+        },
+        {
+          "text": "O que devo fazer com minha família para não ficar doente?"
+        },
+        {
+          "text": "diminuir o risco de minha família ficar doente"
+        },
+        {
+          "text": "Quais são as principais dicas para impedir minha família de pegá-lo?"
+        }
+      ],
+      "description": "Orientação sobre redução de riscos para sua família"
+    },
+    {
+      "intent": "Familiar-infectado",
+      "examples": [
+        {
+          "text": "Membro da família infectado"
+        },
+        {
+          "text": "o que faço quando alguém em minha casa recebe?"
+        },
+        {
+          "text": "parente infectado"
+        },
+        {
+          "text": "meu colega de quarto tem vírus corona, o que devo fazer?"
+        },
+        {
+          "text": "preciso colocar em quarentena os familiares doentes?"
+        },
+        {
+          "text": "O que devo fazer se alguém em minha casa ficar doente com COVID-19?"
+        }
+      ],
+      "description": "Orientação se um membro da família estiver infectado"
+    },
+    {
+      "intent": "Auxilio-merenda",
+      "examples": [
+        {
+          "text": "as escolas continuam a servir os planos de almoço escolar mesmo que as aulas estejam fechadas?"
+        },
+        {
+          "text": "Refeições para estudantes"
+        },
+        {
+          "text": "Enquanto a escola estiver fora, as crianças terão acesso às refeições?"
+        },
+        {
+          "text": "cesta básica"
+        },
+        {
+          "text": "Auxílio merenda"
+        },
+        {
+          "text": "como os alunos do plano de almoço escolar estão recebendo suas refeições?"
+        },
+        {
+          "text": "os alunos da escola poderão receber refeições gratuitas?"
+        }
+      ],
+      "description": "Informações sobre refeições escolares e para estudantes"
+    },
+    {
+      "intent": "Despedida",
+      "examples": [
+        {
+          "text": "obrigado"
+        },
+        {
+          "text": "blz"
+        },
+        {
+          "text": "adeus"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "ok bye"
+        },
+        {
+          "text": "Obrigado pela ajuda"
+        },
+        {
+          "text": "stop"
+        },
+        {
+          "text": "desliga"
+        },
+        {
+          "text": "até mais tarde"
+        },
+        {
+          "text": "tchau"
+        },
+        {
+          "text": "de nada agora tchau"
+        },
+        {
+          "text": "então tchau"
+        },
+        {
+          "text": "como eu saio daqui"
+        }
+      ],
+      "description": "Despedida (tchau)"
+    },
+    {
+      "intent": "CanalAtendimento",
+      "examples": [
+        {
+          "text": "que profissional procurar?"
+        },
+        {
+          "text": "qual o especialista"
+        },
+        {
+          "text": "posto de saúde"
+        },
+        {
+          "text": "Que profissional procuro?"
+        },
+        {
+          "text": "telefone de contato?"
+        },
+        {
+          "text": "onde tem atendimento"
+        },
+        {
+          "text": "Contato com os centros de saúde"
+        },
+        {
+          "text": "quais hospitais"
+        }
+      ],
+      "description": "Contato com os centros de saúde"
+    },
+    {
+      "intent": "Clima-mais-quente",
+      "examples": [
+        {
+          "text": "fica menos contagioso no verão?"
+        },
+        {
+          "text": "O clima quente vai parar o surto de COVID-19?"
+        },
+        {
+          "text": "Clima mais quente"
+        },
+        {
+          "text": "fica menos contagioso ao ouvir que a propagação diminuirá nos meses mais quentes do verão?"
+        },
+        {
+          "text": "o vírus desaparecerá nos meses mais quentes?"
+        }
+      ],
+      "description": "O clima mais quente ou o verão afetam o vírus ou a pandemia"
+    },
+    {
+      "intent": "Auxilio-Emergencial",
+      "examples": [
+        {
+          "text": "quero o auxílio emergencial"
+        },
+        {
+          "text": "Quem tem direito ao Auxílio"
+        },
+        {
+          "text": "benefício emergencial"
+        },
+        {
+          "text": "Como receber o Auxílio Emergencial"
+        },
+        {
+          "text": "Quero o 600 reis"
+        },
+        {
+          "text": "tenho direito ao auxilio emergencial?"
+        },
+        {
+          "text": "Como sei se estou no Cadastro Único"
+        },
+        {
+          "text": "Como receber e movimentar o Auxílio Emergencial no aplicativo Caixa Tem"
+        },
+        {
+          "text": "Quem não tem direito ao Auxílio"
+        },
+        {
+          "text": "como consigo pegar o auxílio emergencial"
+        },
+        {
+          "text": "quem tem direito ao beneficio?"
+        },
+        {
+          "text": "não tenho emprega"
+        }
+      ],
+      "description": "Orientação de quem tem direito ao beneficio"
+    },
+    {
+      "intent": "Sintomas",
+      "examples": [
+        {
+          "text": "covid-19 causa febre?"
+        },
+        {
+          "text": "febre é um sinal desta infecção?"
+        },
+        {
+          "text": "Quais são os sintomas e complicações que o COVID-19 pode causar?"
+        },
+        {
+          "text": "que sintomas devo prestar atenção?"
+        },
+        {
+          "text": "como sei se estou com virus"
+        },
+        {
+          "text": "covid-19 causa tosse?"
+        },
+        {
+          "text": "Sintomas"
+        },
+        {
+          "text": "como sei se estou com covid"
+        },
+        {
+          "text": "Como sei se estou com corona"
+        }
+      ],
+      "description": "Informações gerais sobre os sintomas da doença covid-19"
+    },
+    {
+      "intent": "Fonte-dados",
+      "examples": [
+        {
+          "text": "Você tem certeza?"
+        },
+        {
+          "text": "Onde você aprendeu isso?"
+        },
+        {
+          "text": "Como você sabe disso?"
+        },
+        {
+          "text": "Isso é verdade?"
+        },
+        {
+          "text": "Onde você obtém sua informação?"
+        },
+        {
+          "text": "Esta informação é precisa?"
+        }
+      ],
+      "description": "Informações sobre onde esse bot originou seus dados"
+    },
+    {
+      "intent": "Sintomas-em-criancas",
+      "examples": [
+        {
+          "text": "Os sintomas do COVID-19 são diferentes em crianças e em adultos?"
+        },
+        {
+          "text": "as crianças reagem diferentemente ao vírus do que os adultos?"
+        },
+        {
+          "text": "as crianças apresentam sintomas diferentes?"
+        },
+        {
+          "text": "Sintomas em crianças"
+        },
+        {
+          "text": "quais são os sintomas em crianças?"
+        }
+      ],
+      "description": "Sinais e sintomas em crianças e diferenças em relação aos adultos"
+    },
+    {
+      "intent": "ProtegendoCriancas",
+      "examples": [
+        {
+          "text": "Como posso proteger meu filho"
+        },
+        {
+          "text": "Protegendo as crianças"
+        },
+        {
+          "text": "a lavagem das mãos é importante para as crianças?"
+        },
+        {
+          "text": "devo desinfetar os brinquedos do meu filho?"
+        },
+        {
+          "text": "o que protegerá meus filhos de contrair a infecção?"
+        }
+      ],
+      "description": "Orientação para manter as crianças protegidas"
+    },
+    {
+      "intent": "Noticias_Corona_Virus",
+      "examples": [
+        {
+          "text": "Tem vacina?"
+        },
+        {
+          "text": "Tem tratamento?"
+        },
+        {
+          "text": "O que está acontecendo?"
+        },
+        {
+          "text": "O que há nas notícias?"
+        },
+        {
+          "text": "Notícias Corona Virus"
+        }
+      ],
+      "description": "Notícias Corona Virus"
+    },
+    {
+      "intent": "AcoesRecomendadas",
+      "examples": [
+        {
+          "text": "Secretária de saúde está fazendo?"
+        },
+        {
+          "text": "como envio uma amostra para o laboratório"
+        },
+        {
+          "text": "Ações recomendadas pelo Departamento de Saúde"
+        },
+        {
+          "text": "O que os profissionais de saúde e os departamentos de saúde devem fazer?"
+        }
+      ],
+      "description": "Ações recomendadas pelo Departamento de Saúde"
+    },
+    {
+      "intent": "Risco-para-criancas",
+      "examples": [
+        {
+          "text": "Risco para crianças"
+        },
+        {
+          "text": "Qual é o risco de meu filho ficar doente com COVID-19?"
+        },
+        {
+          "text": "as crianças pegam a covid-19?"
+        },
+        {
+          "text": "As crianças correm maior risco de adoecer?"
+        },
+        {
+          "text": "O vírus corona pode infectar uma criança?"
+        },
+        {
+          "text": "As crianças têm maior risco de infecção?"
+        }
+      ],
+      "description": "Orientação sobre risco potencial para crianças"
+    },
+    {
+      "intent": "Direitos",
+      "examples": [
+        {
+          "text": "redução do valor da mensalidade"
+        },
+        {
+          "text": "Quais os meus direitos"
+        },
+        {
+          "text": "mensalidade escolar em tempo de pandemia"
+        },
+        {
+          "text": "abatimento nas mensalidades"
+        }
+      ],
+      "description": "dúvidas sobre suspensão de contratos e redução de jornada em tempo de pandemia"
+    },
+    {
+      "intent": "Criancas-mascaras",
+      "examples": [
+        {
+          "text": "Crianças e máscaras"
+        },
+        {
+          "text": "as crianças devem usar máscaras?"
+        },
+        {
+          "text": "meu filho pode brincar fora sem máscara?"
+        },
+        {
+          "text": "são máscaras recomendadas para crianças"
+        },
+        {
+          "text": "minha filha precisa usar uma máscara?"
+        }
+      ],
+      "description": "Orientação sobre crianças usando máscaras faciais"
+    },
+    {
+      "intent": "Socializacao-criancas",
+      "examples": [
+        {
+          "text": "Meu filho ainda pode ir a atividades em grupo?"
+        },
+        {
+          "text": "Crianças socializando"
+        },
+        {
+          "text": "Enquanto estiver fora da escola, meu filho pode sair com os amigos?"
+        },
+        {
+          "text": "Enquanto a escola termina, meu filho pode praticar esportes?"
+        },
+        {
+          "text": "O distanciamento social também é importante para as crianças?"
+        },
+        {
+          "text": "as crianças precisam limitar o contato pessoal?"
+        }
+      ],
+      "description": "Orientação para a socialização infantil"
+    },
+    {
+      "intent": "Bebida-alcoolica",
+      "examples": [
+        {
+          "text": "beber álcool"
+        },
+        {
+          "text": "água ardente"
+        },
+        {
+          "text": "água que passarinho não bebe"
+        },
+        {
+          "text": "bebida alcoólica faz mal"
+        },
+        {
+          "text": "bebida alcoólica faz mau"
+        },
+        {
+          "text": "Posso beber binga"
+        },
+        {
+          "text": "posso fumar"
+        },
+        {
+          "text": "posso consumir bebidas alcoólicas"
+        },
+        {
+          "text": "posso beber cerveja"
+        },
+        {
+          "text": "branquinha"
+        },
+        {
+          "text": "posso beber cachaça"
+        }
+      ],
+      "description": "Covid-19 e bebida alcoólica"
+    },
+    {
+      "intent": "TesteNegativoCOVID",
+      "examples": [
+        {
+          "text": "Você pode ter o vírus corona e ainda testar negativo?"
+        },
+        {
+          "text": "Um teste negativo significa que uma pessoa não possui COVID-19?"
+        },
+        {
+          "text": "Resultados negativos do teste"
+        },
+        {
+          "text": "se você testar negativo, você ainda pode obter COVID-19 mais tarde?"
+        },
+        {
+          "text": "Uma pessoa pode dar negativo e depois dar positivo para COVID-19?"
+        }
+      ],
+      "description": "Considerações para receber resultados de testes negativos"
+    },
+    {
+      "intent": "quarentena",
+      "examples": [
+        {
+          "text": "colocar pessoas infectadas em quarentena ajuda?"
+        },
+        {
+          "text": "espalhar em quarentena"
+        },
+        {
+          "text": "o que é uma quarentena?"
+        },
+        {
+          "text": "Alguém que foi colocado em quarentena pelo COVID-19 pode espalhar a doença para outras pessoas?"
+        },
+        {
+          "text": "as pessoas em quarentena impedem a propagação do vírus corona?"
+        },
+        {
+          "text": "qual é o período de incubação desse vírus corona?"
+        }
+      ],
+      "description": "As pessoas em quarentena impedem a propagação do vírus corona?"
+    },
+    {
+      "intent": "Grupo-de-risco",
+      "examples": [
+        {
+          "text": "Por que os homens ficam doentes?"
+        },
+        {
+          "text": "Populações de maior risco"
+        },
+        {
+          "text": "O vírus Corona (COVID-19) afeta mais as pessoas idosas?"
+        },
+        {
+          "text": "a partir de qual idade tem mais risco?"
+        },
+        {
+          "text": "Tenho mais de 60 anos."
+        },
+        {
+          "text": "Estou no grupo de risco"
+        },
+        {
+          "text": "Quem é idoso?"
+        },
+        {
+          "text": "Os idosos precisam tomar mais cuidado"
+        },
+        {
+          "text": "Quem está em maior risco de doença grave por COVID-19?"
+        },
+        {
+          "text": "Como isso afeta os idosos?"
+        },
+        {
+          "text": "Os idosos são mais propensos a contrair a doença?"
+        },
+        {
+          "text": "Todos os idosos vão morrer?"
+        },
+        {
+          "text": "Por que as pessoas com condições pré-existentes correm mais risco?"
+        }
+      ],
+      "description": "Identifique quais populações estão em maior risco"
+    },
+    {
+      "intent": "Onde-comecou",
+      "examples": [
+        {
+          "text": "Qual é a fonte do vírus?"
+        },
+        {
+          "text": "De onde se originou o vírus corona?"
+        },
+        {
+          "text": "Por onde começou"
+        },
+        {
+          "text": "de que local começou o vírus corona?"
+        }
+      ],
+      "description": "Lidar com perguntas sobre as origens do vírus em humanos"
+    },
+    {
+      "intent": "Preparando-Criancas",
+      "examples": [
+        {
+          "text": "Como preparo meus filhos em caso de surto de COVID-19 em nossa comunidade?"
+        },
+        {
+          "text": "o que devo dizer ao meu filho sobre esta pandemia?"
+        },
+        {
+          "text": "como evito que meus filhos se preocupem com o vírus?"
+        },
+        {
+          "text": "Preparando crianças"
+        },
+        {
+          "text": "Meu filho está estressado com a crise, como posso ajudar?"
+        }
+      ],
+      "description": "Orientação para acalmar e proteger as crianças"
+    },
+    {
+      "intent": "Recuperacao",
+      "examples": [
+        {
+          "text": "Como é a recuperação?"
+        },
+        {
+          "text": "Quantos dias me recupero?"
+        },
+        {
+          "text": "Qual o tempo fico recuperado?"
+        }
+      ],
+      "description": "Descrição da possível recuperação após contrair o covid-19"
+    },
+    {
+      "intent": "O-que-e-Covid",
+      "examples": [
+        {
+          "text": "Onde o vírus Corona (COVID-19) apareceu?"
+        },
+        {
+          "text": "Onde foi descoberto o vírus Corona (COVID-19)."
+        },
+        {
+          "text": "o que é Sars-Cov-2"
+        },
+        {
+          "text": "Carona Virus"
+        },
+        {
+          "text": "covid 19"
+        },
+        {
+          "text": "Por que o vírus Corona (COVID-19) se espalhou?"
+        },
+        {
+          "text": "How did the  Corona Virus (COVID-19) spread from China?"
+        },
+        {
+          "text": "o que é o vírus carona?"
+        },
+        {
+          "text": "O que é Covid"
+        },
+        {
+          "text": "O que é o COVID 19?"
+        },
+        {
+          "text": "Como o vírus Corona (COVID-19) se espalhou da China?"
+        },
+        {
+          "text": "Quando o vírus Corona (COVID-19) apareceu?"
+        },
+        {
+          "text": "Quando o vírus Corona (COVID-19) começou?"
+        }
+      ],
+      "description": "Descrição e definição de COVID19"
+    },
+    {
+      "intent": "Desinfecao-de-superficie",
+      "examples": [
+        {
+          "text": "quais produtos são melhores para desinfetar?"
+        },
+        {
+          "text": "Onde eu preciso desinfectar?"
+        },
+        {
+          "text": "como devo desinfetar minha casa?"
+        },
+        {
+          "text": "Desinfecção de superfícies"
+        },
+        {
+          "text": "Preciso limpar com água sanitária?"
+        },
+        {
+          "text": "Como faço para limpar minha casa"
+        },
+        {
+          "text": "Quais produtos de limpeza devo usar para proteger contra o COVID-19?"
+        }
+      ],
+      "description": "Guia de desinfecção"
+    },
+    {
+      "intent": "OrgaoPublico",
+      "examples": [
+        {
+          "text": "o que o órgão públicos esta fazendo"
+        },
+        {
+          "text": "quais as medidas que o governo"
+        },
+        {
+          "text": "O que o Brasil está fazendo para combater a pandemia"
+        },
+        {
+          "text": "o que o governo esta fazendo"
+        }
+      ],
+      "description": "Medidas adotadas pelo Governo Federal no combate ao corona vírus"
+    },
+    {
+      "intent": "EstimaCulpa",
+      "examples": [
+        {
+          "text": "a pandemia está causando discriminação contra o povo chinês?"
+        },
+        {
+          "text": "De quem é a culpa"
+        },
+        {
+          "text": "Por que alguém pode culpar ou evitar indivíduos e grupos (criar estigma) por causa do COVID-19?"
+        },
+        {
+          "text": "O que causa estereotipagem e culpa?"
+        },
+        {
+          "text": "Grupos estigmatizados"
+        },
+        {
+          "text": "os asiáticos estão sendo incrivelmente culpados pelo vírus da coroa?"
+        }
+      ],
+      "description": "Sobre discriminação racial ou vergonha"
+    },
+    {
+      "intent": "Uso-mascara",
+      "examples": [
+        {
+          "text": "As máscaras faciais fazem alguma coisa?"
+        },
+        {
+          "text": "quando devo usar uma máscara facial?"
+        },
+        {
+          "text": "Meu filho deve usar uma máscara facial?"
+        },
+        {
+          "text": "Usando máscaras faciais"
+        },
+        {
+          "text": "Alguém na minha casa está doente, devemos usar máscaras em casa?"
+        },
+        {
+          "text": "Preciso usar uma máscara facial?"
+        },
+        {
+          "text": "recomenda o uso de máscara facial para evitar o COVID-19?"
+        },
+        {
+          "text": "Devo usar uma máscara facial quando estiver em público?"
+        },
+        {
+          "text": "Devo usar uma máscara facial quando for sair"
+        },
+        {
+          "text": "O que as máscaras faciais fazem?"
+        }
+      ],
+      "description": "Perguntas gerais sobre máscara facial"
+    },
+    {
+      "intent": "Teste",
+      "examples": [
+        {
+          "text": "meu médico pode me testar se eu começar a ficar doente?"
+        },
+        {
+          "text": "quem deve fazer o teste?"
+        },
+        {
+          "text": "Devo ser testado para o COVID-19?"
+        },
+        {
+          "text": "devo ir ao médico se apresentar sintomas?"
+        },
+        {
+          "text": "teste"
+        }
+      ],
+      "description": "Quando, onde, como fazer o teste"
+    },
+    {
+      "intent": "PrepareFamily",
+      "examples": [
+        {
+          "text": "minha família deve planejar com antecedência?"
+        },
+        {
+          "text": "Prepare a família"
+        },
+        {
+          "text": "Como minha família e eu podemos nos preparar para o COVID-19?"
+        },
+        {
+          "text": "o que entra em um plano de emergência familiar?"
+        },
+        {
+          "text": "como preparo minha casa, caso o vírus corona atinja minha"
+        }
+      ],
+      "description": "Orientação para a preparação da família"
+    },
+    {
+      "intent": "ContatoAnimais",
+      "examples": [
+        {
+          "text": "cães e gatos ficam doentes com o vírus corona?"
+        },
+        {
+          "text": "meu cachorro pode pegar o vírus corona?"
+        },
+        {
+          "text": "Contato com animais"
+        },
+        {
+          "text": "Devo evitar o contato com animais de estimação ou outros animais se estiver doente com COVID-19?"
+        },
+        {
+          "text": "Existe algum perigo para animais de estimação?"
+        }
+      ],
+      "description": "Orientação interação humano X animal"
+    },
+    {
+      "intent": "HomeOffice",
+      "examples": [
+        {
+          "text": "Eu deveria trabalhar, mas a escola do meu filho foi cancelada"
+        },
+        {
+          "text": "Devo ir trabalhar se houver um surto na minha comunidade?"
+        },
+        {
+          "text": "trabalho em casa"
+        },
+        {
+          "text": "Reportando-se ao trabalho"
+        },
+        {
+          "text": "qual o tempo de que fico em casa"
+        },
+        {
+          "text": "qual o tempo de que fico afastado do trabalho?"
+        },
+        {
+          "text": "quais são minhas opções de trabalho em casa?"
+        },
+        {
+          "text": "meu escritório será fechado?"
+        },
+        {
+          "text": "home office"
+        }
+      ],
+      "description": "Orientação para entrar no trabalho"
+    },
+    {
+      "intent": "Doenca",
+      "examples": [
+        {
+          "text": "quais as doenças de risco?"
+        },
+        {
+          "text": "que doenças são de riscos?"
+        }
+      ],
+      "description": "Descrição das doenças mais preocupantes na pandemia do covid-19."
+    },
+    {
+      "intent": "Produtos-da-China",
+      "examples": [
+        {
+          "text": "devo parar de comprar produtos da China?"
+        },
+        {
+          "text": "Produtos da China"
+        },
+        {
+          "text": "os produtos da china"
+        },
+        {
+          "text": "Estou em risco de COVID-19 de uma embalagem ou produtos enviados da China?"
+        },
+        {
+          "text": "os pacotes da China estão infectados?"
+        },
+        {
+          "text": "é seguro comprar produtos chineses?"
+        }
+      ],
+      "description": "Orientação sobre pacotes da China"
+    },
+    {
+      "intent": "Propagacao-alimento",
+      "examples": [
+        {
+          "text": "eu pego através de alimentos"
+        },
+        {
+          "text": "O vírus que causa o COVID-19 pode se espalhar pelos alimentos, incluindo alimentos refrigerados ou congelados?"
+        },
+        {
+          "text": "se espalha nas embalagens de alimentos?"
+        },
+        {
+          "text": "preciso lavar minhas compras?"
+        },
+        {
+          "text": "o vírus adere aos alimentos embalados?"
+        },
+        {
+          "text": "espalhar através dos alimentos"
+        }
+      ],
+      "description": "Vírus espalhado de alimentos ou embalagens de alimentos"
+    },
+    {
+      "intent": "Saudacao",
+      "examples": [
+        {
+          "text": "yello"
+        },
+        {
+          "text": "Olla"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "Good afternoon"
+        },
+        {
+          "text": "hello watson"
+        },
+        {
+          "text": "bonjour"
+        },
+        {
+          "text": "buenos dias"
+        },
+        {
+          "text": "Boa tarde"
+        }
+      ],
+      "description": "Cumprimento"
+    },
+    {
+      "intent": "Numero-de-casos",
+      "examples": [
+        {
+          "text": "Quantos casos"
+        },
+        {
+          "text": "Total de casos até o momento"
+        },
+        {
+          "text": "Quais são as estatísticas do COVID-19?"
+        },
+        {
+          "text": "How many cases so far?"
+        },
+        {
+          "text": "Quantos casos de vírus corona foram detectados?"
+        },
+        {
+          "text": "Quantos casos de Covid 19 foram detectados?"
+        },
+        {
+          "text": "Quais são as estatísticas do vírus Corona?"
+        }
+      ],
+      "description": "Estatísticas sobre o número de infecções"
+    },
+    {
+      "intent": "Contagio",
+      "examples": [
+        {
+          "text": "Como acontece a disseminação da comunidade?"
+        },
+        {
+          "text": "O vírus Corona (COVID-19) se espalha por toda a comunidade?"
+        },
+        {
+          "text": "A disseminação da comunidade pode acontecer?"
+        },
+        {
+          "text": "O que significa esse termo disseminação comunitária?"
+        },
+        {
+          "text": "Por que a disseminação comunitária desse vírus é importante?"
+        },
+        {
+          "text": "O que é espalhado pela comunidade?"
+        },
+        {
+          "text": "como é a Propagação?"
+        }
+      ],
+      "description": "Definindo a propagação da comunidade"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "reply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "não",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "sim"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "zip_code",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "@sys-number",
+          "synonyms": [
+            "(\\b|\\s)\\d{5}(\\b|\\s)"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Saudacao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bonjour",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Boa tarde!",
+          "synonyms": [
+            "Good afternoon"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Boa Noite!",
+          "synonyms": [
+            "good evening"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bom dia!",
+          "synonyms": [
+            "Good morning",
+            "buenos dias"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "coronavirus",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "COVID-19",
+          "synonyms": [
+            "corona",
+            "virus",
+            "COVID",
+            "coronavirus",
+            "corona-virus",
+            "carona-virus",
+            "Carona",
+            "Korona",
+            "Korona-virus",
+            "COVID19",
+            "Carona vírus"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "estadosBR",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Rio Grande do Norte",
+          "synonyms": [
+            "RN"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rio de Janeiro",
+          "synonyms": [
+            "RJ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Piaui",
+          "synonyms": [
+            "PI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pernambuco",
+          "synonyms": [
+            "PE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Parana",
+          "synonyms": [
+            "PR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Paraiba",
+          "synonyms": [
+            "PB"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Para",
+          "synonyms": [
+            "PA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mundo",
+          "synonyms": [
+            "Mundial"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Minas Gerais",
+          "synonyms": [
+            "Minas",
+            "MG"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mato Grosso do Sul",
+          "synonyms": [
+            "MS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mato Grosso",
+          "synonyms": [
+            "MT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Maranhao",
+          "synonyms": [
+            "MA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Goias",
+          "synonyms": [
+            "GO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Espirito Santo",
+          "synonyms": [
+            "ES"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Distrito Federal",
+          "synonyms": [
+            "Brasilia",
+            "DF"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ceara",
+          "synonyms": [
+            "CE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bahia",
+          "synonyms": [
+            "BA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Amazonas",
+          "synonyms": [
+            "AM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Amapa",
+          "synonyms": [
+            "AP"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Alagoas",
+          "synonyms": [
+            "AL"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Acre",
+          "synonyms": [
+            "AC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tocantins",
+          "synonyms": [
+            "TO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sergipe",
+          "synonyms": [
+            "SE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sao Paulo",
+          "synonyms": [
+            "SP"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Santa Catarina",
+          "synonyms": [
+            "SC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Roraima",
+          "synonyms": [
+            "RR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rondonia",
+          "synonyms": [
+            "RO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rio Grande do Sul",
+          "synonyms": [
+            "RS"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://us-south.functions.cloud.ibm.com/api/v1/namespaces/jessica.pcd%40hotmail.com_dev/actions/COVID-19?blocking=true",
+      "name": "main_webhook",
+      "headers": [
+        {
+          "name": "Authorization",
+          "value": "Basic Y2Q4YzZiOWYtZGQwOS00ZmZlLWI0YjEtZTViZmJlOTc5YzE4OmloVFlHS2RBMnQ3bWlBTzJueVd3enRYVHZFYncxUjY4cDdMS3Mybms2UnRNQkZNb2tvWEozakxSclkxVDc2SFA="
+        }
+      ]
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Não identificamos os dados desse Estado Brasileiro."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1589901574832",
+      "event_name": "nomatch",
+      "dialog_node": "handler_2_1589902404184",
+      "previous_sibling": "handler_6_1589901574865"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Informe o Estado Brasileiro?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1589901574832",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1589901574865",
+      "previous_sibling": "handler_2_1589901574865"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1589901574832",
+      "context": {
+        "estadosBR": "@estadosBR"
+      },
+      "conditions": "@estadosBR",
+      "event_name": "input",
+      "dialog_node": "handler_2_1589901574865"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Ainda não sei a resposta para isso. Mas estou aprendendo coisas novas o tempo todo."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1588768984050",
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1588769130695",
+      "previous_sibling": "response_9_1588769128705"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "video": {},
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ainda não sei a resposta para isso.  $webhook_result_2.result"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "parent": "node_1_1588768984050",
+      "context": {},
+      "conditions": "$webhook_result_2",
+      "dialog_node": "response_9_1588769128705"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            " Não consegui encontrar nada"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1585093908809",
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1585095664425",
+      "previous_sibling": "response_1_1585095663277"
+    },
+    {
+      "type": "frame",
+      "title": " Informações de localização",
+      "parent": "node_3_1585093908809",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "type": "api",
+            "location": "$location"
+          },
+          "result_variable": "location_stats"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@reply:yes",
+      "dialog_node": "node_4_1585096079466",
+      "previous_sibling": "slot_8_1585096407905"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This is all the confirmed cases I have found"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "$summary.result"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Would you like the stats of a specific location?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1585093908809",
+      "conditions": "$summary",
+      "dialog_node": "response_1_1585095663277",
+      "previous_sibling": "node_4_1585096079466"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1585093908809",
+      "variable": "$location",
+      "dialog_node": "slot_8_1585096407905"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os dados do COVID-19 para o Estado $estadosBR são:\ncasos confirmados: $retorno.response.result.casos \ncasos de óbitos  $retorno.response.result.obitos \n_________________\n\nDados do geral do Brasil:\nConfirmados: $retorno.response.result.confBrasil\nveio a óbito: $retorno.response.result.obitosBrasil"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1584976214871",
+      "conditions": "$retorno",
+      "dialog_node": "response_5_1584976331463",
+      "previous_sibling": "slot_10_1589901574832"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Erro ao localizar o Estado Brasileiro."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1584976214871",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1584976331717",
+      "previous_sibling": "response_5_1584976331463"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1584976214871",
+      "variable": "$estadosBR",
+      "dialog_node": "slot_10_1589901574832",
+      "previous_sibling": "node_2_1589905760458"
+    },
+    {
+      "type": "standard",
+      "title": "Zerar as variáveis para uma nova solicitação",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1584976214871",
+      "context": {
+        "retorno": null,
+        "estadosBR": null
+      },
+      "conditions": "false",
+      "dialog_node": "node_2_1589905760458"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Olá! Estou aqui para tirar dúvidas frequentes sobre o corona vírus. Como posso te ajudar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_11748",
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1588806963564",
+      "previous_sibling": "response_2_1588806363408"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "@Saudacao pra você também!  Qual a sua dúvida?"
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "parent": "node_11748",
+      "context": {},
+      "conditions": "@Saudacao",
+      "dialog_node": "response_2_1588806363408"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Would you like data for specific location?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1585096407905",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1585096407991",
+      "previous_sibling": "handler_3_1585096407991"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1585096407905",
+      "context": {
+        "location": "@sys-location"
+      },
+      "conditions": "@sys-location",
+      "event_name": "input",
+      "dialog_node": "handler_3_1585096407991"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What location (Country/Country Code/US State) would you like the stats for?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1585096776672",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1585096776761",
+      "previous_sibling": "handler_2_1585096776761"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1585096776672",
+      "context": {
+        "location": "@sys-location"
+      },
+      "conditions": "@sys-location",
+      "event_name": "input",
+      "dialog_node": "handler_2_1585096776761"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I could not find any information on that."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1585096079466",
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1585096899249",
+      "previous_sibling": "response_9_1585096897994"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1585096079466",
+      "variable": "$location",
+      "dialog_node": "slot_9_1585096776672",
+      "previous_sibling": "response_3_1585096899249"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are the stats for <?$location?> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "$location_stats.result"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1585096079466",
+      "conditions": "$location_stats",
+      "dialog_node": "response_9_1585096897994"
+    },
+    {
+      "type": "standard",
+      "title": " Quantos casos",
+      "parent": "node_4_1585096044203",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "type": "api"
+          },
+          "result_variable": "summary"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Numero-de-casos",
+      "dialog_node": "node_3_1585093908809"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Ainda não sei a resposta para isso. Mas estou aprendendo coisas novas o tempo todo."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_11749",
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1585074744879",
+      "previous_sibling": "response_10_1585074743918"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Ainda não sei a resposta para isso.  $webhook_result_3.result"
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "parent": "node_11749",
+      "context": {},
+      "conditions": "$webhook_result_3",
+      "dialog_node": "response_10_1585074743918"
+    },
+    {
+      "type": "standard",
+      "title": "node_11790",
+      "output": {},
+      "parent": "node_11788",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_11749"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_11790",
+      "previous_sibling": "node_11789"
+    },
+    {
+      "type": "standard",
+      "title": "node_11789",
+      "output": {},
+      "parent": "node_11788",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_11748"
+      },
+      "conditions": "input.text == '' && !input.button",
+      "dialog_node": "node_11789"
+    },
+    {
+      "type": "standard",
+      "title": "Auxilio-Emergencial (falta completar)",
+      "output": {
+        "text": {
+          "values": [
+            "O Auxílio Emergencial é um benefício financeiro concedido pelo Governo Federal destinado aos trabalhadores informais, microempreendedores individuais (MEI), autônomos e desempregados, e tem por objetivo fornecer proteção emergencial no período de enfrentamento à crise causada pela pandemia do Coronavírus - COVID 19.\n\nMaiores informações podem ser consultadas no site da caixa: http://www.caixa.gov.br/auxilio/PAGINAS/DEFAULT2.ASPX"
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Auxilio-Emergencial&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_6_1588779468161",
+      "previous_sibling": "node_1_1589906903831"
+    },
+    {
+      "type": "standard",
+      "title": "Auxílio merenda",
+      "output": {
+        "text": {
+          "values": [
+            "Auxilio a cesta básica e kits higiene é uma medida emergencial e temporária para garantir a alimentação dos alunos enquanto estiverem em suas casas por conta da suspensão das atividades presenciais.\n\nO Programa é voltado aos estudantes da rede estadual,e público vulneráveis.\n\nPara receber o benefício, a família precisa se cadastrar no site da prefeitura: https://cestabasica.pbh.gov.br/\nO cadastro deve ser feito pelo(a) Responsável da Unidade Familiar no CadÚnico ou pela pessoa responsável pelo saque do Bolsa Família.\n\nA consulta para entrega de cestas básicas e kits de higiene do mês de maio deve ser realizada a partir do dia 6. O sistema está sendo atualizado com novos cadastros."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Auxilio-merenda && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11787",
+      "previous_sibling": "node_11786"
+    },
+    {
+      "type": "standard",
+      "title": "lockdown",
+      "output": {
+        "text": {
+          "values": [
+            "Um lockdown, ou em português bloqueio total ou confinamento, é um protocolo de isolamento que geralmente impede que pessoas, informações ou carga deixem uma área.\n\nA capital mineira ainda não adotou essa medida, mas O prefeito de Belo Horizonte, Alexandre Kalil, não descarta implementar o \"lockdown\" na capital mineira como forma de prevenção à disseminação do novo coronavírus."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#lockdown && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_1_1589651228864",
+      "previous_sibling": "node_11752"
+    },
+    {
+      "type": "standard",
+      "title": " Informações de encerramento da escola",
+      "output": {
+        "text": {
+          "values": [
+            "Dependendo da situação, as autoridades de saúde pública podem recomendar ações comunitárias para reduzir as exposições ao COVID-19, como demissões em escolas. Leia ou assista a fontes de mídia locais que denunciam demissões escolares ou e observe a comunicação da escola de seu filho. Se as escolas forem demitidas temporariamente, desencoraje estudantes e funcionários de se reunir ou socializar em qualquer lugar, como na casa de um amigo, em um restaurante favorito ou no shopping local."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Fechamento-da-escola&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11774",
+      "previous_sibling": "node_11773"
+    },
+    {
+      "type": "standard",
+      "title": "Suspensão de contratos na pandemia (falta completar)",
+      "output": {
+        "text": {
+          "values": [
+            "A melhor opção ainda é que as partes consigam resolver a situação de forma amigável, a fim de evitar o caminho judicial."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Direitos&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_5_1588777558830",
+      "previous_sibling": "node_1_1588809188116"
+    },
+    {
+      "type": "standard",
+      "title": "Contagio de Pessoa para Pessoa",
+      "output": {
+        "text": {
+          "values": [
+            "O vírus que causa o COVID-19 está se espalhando de pessoa para pessoa. Alguém que está ativamente doente com COVID-19 pode espalhar a doença para outras pessoas. É por isso que o CDC recomenda que esses pacientes sejam isolados no hospital ou em casa (dependendo de como estão doentes) até que estejam melhores e não representem mais o risco de infectar outras pessoas. Quanto tempo uma pessoa está ativamente doente pode variar, de modo que a decisão sobre quando liberar alguém do isolamento é tomada caso a caso, em consulta com médicos, especialistas em prevenção e controle de infecções e autoridades de saúde pública, e envolve considerar detalhes de cada situação incluindo gravidade da doença, sinais e sintomas da doença e resultados de exames laboratoriais para esse paciente. As orientações atuais do CDC para quando é permitido liberar alguém do isolamento são feitas caso a caso e incluem o atendimento a todos os seguintes requisitos: O paciente está livre da febre sem o uso de medicamentos para redução da febre. O paciente não está mais apresentando sintomas, incluindo tosse. O paciente testou negativo em pelo menos duas amostras respiratórias consecutivas coletadas com pelo menos 24 horas de intervalo. Alguém que foi libertado do isolamento não é considerado um risco de infecção para outras pessoas."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Pessoa-para-pessoa&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11755",
+      "previous_sibling": "node_11754"
+    },
+    {
+      "type": "standard",
+      "title": " Populações de Grupo de risco",
+      "output": {
+        "text": {
+          "values": [
+            "Adultos mais velhos e pessoas de qualquer idade com sérias condições médicas subjacentes podem estar em maior risco de complicações mais sérias do COVID-19. Com base nas informações disponíveis até o momento, as pessoas em maior risco incluem Pessoas com 65 anos ou mais, Pessoas que vivem em um lar de idosos ou em instituições de longa permanência, Pessoas de qualquer idade com as seguintes condições médicas subjacentes, particularmente aquelas que não são bem controladas Doença pulmonar crônica ou asma, Insuficiência cardíaca congestiva ou doença arterial coronariana, Diabetes, Condições neurológicas que enfraquecem a capacidade de tossir, Sistema imunológico enfraquecido, Quimioterapia ou radiação para câncer (atualmente ou no passado recente), Anemia falciforme, Doença renal crônica que requer diálise, cirrose hepática, falta de baço ou baço que não funciona corretamente, obesidade extrema (índice de massa corporal [IMC]> 40), pessoas que estão grávidas."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Grupo-de-risco&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11761",
+      "previous_sibling": "node_1_1588768984050"
+    },
+    {
+      "type": "standard",
+      "title": "node_11750",
+      "output": {
+        "text": {
+          "values": [
+            "Você quis dizer:",
+            "Você parece estar perguntando sobre:",
+            "Eu acho que você estava perguntando sobre:"
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "buttons": [
+          {
+            "id": "<? intents.?[intent != 'greeting' && intent != 'goodbyes'  && intent != 'nonsense' && intent != 'no' && intent != 'yes' && intent != 'weather'][0].intent ?>"
+          },
+          {
+            "id": "<? intents.?[intent != 'greeting' && intent != 'goodbyes'  && intent != 'nonsense' && intent != 'no' && intent != 'yes' && intent != 'weather'][1].intent ?>"
+          },
+          {
+            "id": "<? intents.?[intent != 'greeting' && intent != 'goodbyes'  && intent != 'nonsense' && intent != 'no' && intent != 'yes' && intent != 'weather'][2].intent ?>"
+          }
+        ],
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "intents.size() > 0 && (intents[0].confidence < $low_confidence && intents[0].confidence > $out_of_bounds)",
+      "dialog_node": "node_11750",
+      "previous_sibling": "node_8_1585238958758"
+    },
+    {
+      "type": "standard",
+      "title": "Posso assistir a velório?",
+      "output": {
+        "text": {
+          "values": [
+            "Atualmente, não há risco conhecido de estar na mesma sala em um funeral ou serviço de visitação com o corpo de alguém que morreu de COVID-19."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Funeral&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11781",
+      "previous_sibling": "node_11780"
+    },
+    {
+      "type": "standard",
+      "title": " Pode espalhar através da comida?",
+      "output": {
+        "text": {
+          "values": [
+            "Pensa-se geralmente que os coronavírus se espalhem de pessoa para pessoa através de gotículas respiratórias. Atualmente, não há evidências para apoiar a transmissão do COVID-19 associado a alimentos. Antes de preparar ou comer alimentos, é importante lavar sempre as mãos com água e sabão por 20 segundos para segurança geral dos alimentos. Durante o dia, lave as mãos após assoar o nariz, tossir ou espirrar ou ir ao banheiro. Em geral, devido à baixa capacidade de sobrevivência desses coronavírus nas superfícies, é provável que haja um risco muito baixo de propagação de produtos alimentares ou embalagens enviados por um período de dias ou semanas em temperatura ambiente, refrigerada ou congelada."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Propagacao-alimento&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11757",
+      "previous_sibling": "node_2_1589068944876"
+    },
+    {
+      "type": "standard",
+      "title": " Preparando e acalmando crianças",
+      "output": {
+        "text": {
+          "values": [
+            "Os surtos podem ser estressantes para adultos e crianças. Converse com seus filhos sobre o surto, tente manter a calma e assegure-lhes que eles estão seguros. Se apropriado, explique-lhes que a maioria das doenças do COVID-19 parece ser leve. As crianças respondem de maneira diferente a situações estressantes do que os adultos."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#PreparingChildren && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11773",
+      "previous_sibling": "node_11772"
+    },
+    {
+      "type": "standard",
+      "title": " O que é o Covid19?",
+      "output": {
+        "video": {},
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Um novo coronavírus é um novo vírus que não foi identificado anteriormente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 10,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "O vírus que causa a doença de coronavírus 2019 (COVID-19) não é o mesmo que os coronavírus que geralmente circulam entre humanos e causam doenças leves, como o resfriado comum. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Um diagnóstico com coronavírus 229E, NL63, OC43 ou HKU1 não é o mesmo que um diagnóstico COVID-19.  Os pacientes com COVID-19 serão avaliados e tratados diferentemente dos pacientes com diagnóstico comum de coronavírus."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://www.oblumenauense.com.br/wp-content/uploads/2020/02/coronavirus_29-02-201.jpg",
+            "response_type": "image"
+          }
+        ],
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#O-que-e-Covid&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11751",
+      "previous_sibling": "node_2_1584976214871"
+    },
+    {
+      "type": "standard",
+      "title": "Ultimas noticias da evolução do vírus (falta completar)",
+      "output": {
+        "video": {},
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A Moderna Inc informou nesta segunda-feira (18/05/20) que sua vacina experimental contra a covid-19 mostrou potencial em um estudo de estágio inicial, já que produziu anticorpos neutralizadores do vírus semelhantes àqueles encontrados em pacientes recuperados, o que fez o preço das ações dispararem 25%."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#noticias_corona_virus&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_1_1589906903831",
+      "previous_sibling": "node_5_1588777558830"
+    },
+    {
+      "type": "standard",
+      "title": " Nomeação de vírus",
+      "output": {
+        "text": {
+          "values": [
+            "Em 11 de fevereiro de 2020, a Organização Mundial de Saúde anunciou um nome oficial para a doença que está causando o novo surto de coronavírus em 2019, identificado pela primeira vez em Wuhan China. O novo nome desta doença é doença de coronavírus 2019, abreviado como COVID-19. No COVID-19, \"CO\" significa \"corona\", \"VI\" para \"vírus\" e \"D\" para doença. Antigamente, essa doença era conhecida como \"2019 novo coronavírus\" ou \"2019-nCoV\". Existem muitos tipos de coronavírus humanos, incluindo alguns que geralmente causam doenças leves do trato respiratório superior. COVID-19 é uma nova doença, causada por um novo (ou novo) coronavírus que não havia sido visto em humanos. O nome desta doença foi selecionado de acordo com as melhores práticas da Organização Mundial da Saúde (OMS) para nomear novas doenças infecciosas humanas."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Origem-do-nome && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11752",
+      "previous_sibling": "node_6_1588779468161"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "text": {
+          "values": [
+            "Despedida!",
+            "Se Cuida",
+            "Fique seguro lá fora"
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "#Despedida && intents[0].confidence > 0.95",
+      "dialog_node": "node_11791",
+      "previous_sibling": "node_11748"
+    },
+    {
+      "type": "standard",
+      "title": " Informações de teste",
+      "output": {
+        "text": {
+          "values": [
+            "Se você desenvolver sintomas como febre, tosse e / ou dificuldade em respirar e estiver em contato próximo com uma pessoa conhecida por COVID-19 ou tiver viajado recentemente de uma área com disseminação contínua de COVID-19, fique em casa e ligue para seu médico. Pacientes mais velhos e indivíduos que apresentam condições médicas subjacentes graves ou estão imunocomprometidas devem entrar em contato com seu médico imediatamente, mesmo que sua doença seja leve. Se você tiver sintomas graves, como dor ou pressão persistente no peito, nova confusão ou incapacidade de despertar ou lábios azulados do rosto, entre em contato com seu médico ou pronto-socorro e procure atendimento imediatamente. O seu médico irá determinar se você tem sinais e sintomas de COVID-19 e se deve fazer o teste."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Teste&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11777",
+      "previous_sibling": "node_11776"
+    },
+    {
+      "type": "standard",
+      "title": " Mitigação de clima mais quente",
+      "output": {
+        "text": {
+          "values": [
+            "Ainda não se sabe se o clima e a temperatura afetam a propagação do COVID-19. Alguns outros vírus, como o resfriado e a gripe comuns, se espalham mais durante os meses frios, mas isso não significa que é impossível ficar doente com esses vírus durante outros meses. No momento, não se sabe se a propagação do COVID-19 diminuirá quando o clima ficar mais quente. Há muito mais para aprender sobre a transmissibilidade, a gravidade e outros recursos associados ao COVID-19 e às investigações em andamento."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Clima-mais-quente&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11758",
+      "previous_sibling": "node_11757"
+    },
+    {
+      "type": "standard",
+      "title": "O que o governo esta fazendo  no combate ao corona virus (falta completar)",
+      "output": {
+        "text": {
+          "values": [
+            "O governo federal prepara uma série de medidas para combater o alastramento do Sars-Cov-2, coronavírus responsável pela atual pandemia declarada pela Organização Mundial da Saúde.\n\nCrédito extraordinário foram liberados com esta finalidade via Medida Provisória (auxilio emergencial)\n\nDirigentes do Ministério da Saúde não descartam, porém, a adoção de medidas mais duras de isolamento social, cujo objetivo é tentar frear a propagação da doença. Até o momento, a única decisão a nível federal deste tipo é uma portaria publicada na última quarta-feira (11/05/20) determinando o isolamento, de preferência em domicílio, das pessoas que tenham suspeitas do coronavírus."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#OrgaoPublico && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11782",
+      "previous_sibling": "node_11781"
+    },
+    {
+      "type": "standard",
+      "title": " Protegendo crianças do COVID-19",
+      "output": {
+        "text": {
+          "values": [
+            "Você pode incentivar seu filho a ajudar a impedir a propagação do COVID-19 ensinando-o a fazer as mesmas coisas que todos devem fazer para se manter saudável. Mãos limpas, muitas vezes usando sabão e água ou desinfetante para as mãos à base de álcool Evite pessoas doentes (tossindo e espirrando) Limpe e desinfete superfícies de alto toque diariamente em áreas comuns da casa (por exemplo, mesas, cadeiras com encosto alto, maçanetas, interruptores de luz, controles remotos) , alças, mesas, banheiros, pias) Lave itens, incluindo brinquedos de pelúcia laváveis, conforme apropriado, de acordo com as instruções do fabricante. Se possível, lave os itens usando a configuração de água mais quente apropriada para os itens e seque completamente. A roupa suja de uma pessoa doente pode ser lavada com os itens de outras pessoas. Você pode encontrar informações adicionais sobre a prevenção do COVID-19 em Prevenção de novos coronavírus para 2019 e Impedindo a disseminação do COVID-19 em comunidades. Informações adicionais sobre como o COVID-19 é espalhado estão disponíveis, perguntando Como o COVID-19 se espalha"
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#ProtegendoCriancas&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11765",
+      "previous_sibling": "node_11764"
+    },
+    {
+      "type": "standard",
+      "title": " Dicas e orientações sobre lavagem das mãos",
+      "output": {
+        "video": {},
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A lavagem das mãos é uma das melhores maneiras de proteger você e sua família de ficarem doentes. Lave as mãos frequentemente com água e sabão por pelo menos 20 segundos, principalmente depois de assoar o nariz, tossir ou espirrar; indo ao banheiro; e antes de comer ou preparar a comida. Se água e sabão não estiverem prontamente disponíveis, use um desinfetante para as mãos à base de álcool com pelo menos 70% de álcool."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://s03.video.glbimg.com/x720/8353998.jpg",
+            "response_type": "image"
+          }
+        ],
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#LavarMao&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11771",
+      "previous_sibling": "node_11770"
+    },
+    {
+      "type": "standard",
+      "title": " Reduzir o risco da família",
+      "output": {
+        "text": {
+          "values": [
+            "Pratique ações preventivas diárias para ajudar a reduzir o risco de ficar doente e lembrar a todos em sua casa para fazer o mesmo. Essas ações são especialmente importantes para adultos mais velhos e pessoas que têm condições médicas crônicas graves: Evite contato próximo com pessoas doentes. Cubra suas tosses e espirros com um lenço de papel e jogue-o no lixo. Lave as mãos frequentemente com água e sabão por pelo menos 20 segundos, principalmente depois de assoar o nariz, tossir ou espirrar; indo ao banheiro; e antes de comer ou preparar a comida. Se água e sabão não estiverem prontamente disponíveis, use um desinfetante para as mãos à base de álcool com pelo menos 60% de álcool. Sempre lave as mãos com água e sabão se as mãos estiverem visivelmente sujas. Limpe e desinfete as superfícies e os objetos tocados com frequência (por exemplo, mesas, bancadas, interruptores de luz, maçanetas e puxadores do gabinete)."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#ReduceFamilyRisk && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11769",
+      "previous_sibling": "node_11768"
+    },
+    {
+      "type": "standard",
+      "title": "Contato com animais",
+      "output": {
+        "text": {
+          "values": [
+            "Você deve restringir o contato com animais de estimação e outros animais enquanto estiver doente com o COVID-19, assim como faria com outras pessoas. Embora não tenha havido relatos de animais de estimação ou outros animais adoecendo com COVID-19, ainda é recomendável que pessoas doentes com COVID-19 limitem o contato com animais até que mais informações sejam conhecidas sobre o vírus. Se você está doente com COVID-19, evite o contato com seu animal de estimação, incluindo acariciar, aconchegar-se, ser beijado ou lambido e compartilhar alimentos. Se você precisar cuidar do seu animal de estimação ou ficar perto de animais enquanto estiver doente, lave as mãos antes e depois de interagir com os animais e use uma máscara facial."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#ContatoAnimais && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11784",
+      "previous_sibling": "node_11783"
+    },
+    {
+      "type": "standard",
+      "title": " Crianças e máscaras faciais",
+      "output": {
+        "text": {
+          "values": [
+            "Se seu filho é saudável, não há necessidade de usar máscara facial. Somente as pessoas que apresentam sintomas de doença ou que prestam assistência àqueles doentes devem usar máscaras."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Criancas-mascaras && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11767",
+      "previous_sibling": "node_11766"
+    },
+    {
+      "type": "standard",
+      "title": "Covid-19 e bebida alcoólica (falta completar)",
+      "output": {
+        "text": {
+          "values": [
+            "O consumo de álcool não destrói o vírus que causa a COVID-19 e provavelmente aumenta os riscos para a saúde se a pessoa contrair o vírus. O álcool\n(a uma concentração de pelo menos 70% por volume) funciona como um\ndesinfetante para a pele, mas não tem esse efeito dentro do seu organismo\nquando ingerido.\n\nO consumo pode, inclusive, tornar uma pessoa mais vulnerável ao vírus, já que o álcool compromete o sistema imunológico do corpo e aumenta o risco de infecções."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Bebida-alcoolica && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_7_1588781634067",
+      "previous_sibling": "node_11753"
+    },
+    {
+      "type": "folder",
+      "title": "api",
+      "dialog_node": "node_4_1585096044203",
+      "previous_sibling": "node_11791"
+    },
+    {
+      "type": "standard",
+      "title": "Conselhos sobre Educação em Casa",
+      "output": {
+        "text": {
+          "values": [
+            "Mantenha contato com a escola do seu filho. Muitas escolas estão adaptando as lições pessoalmente ao aprendizado online ou virtual. Revise as tarefas da escola e ajude seu filho a estabelecer um ritmo razoável para concluir o trabalho. Pode ser necessário ajudar seu filho a ligar dispositivos, ler instruções e digitar respostas. Comunique os desafios à sua escola. Se você enfrentar problemas de tecnologia ou conectividade, ou se seu filho estiver com dificuldades para concluir as tarefas, informe a escola. Crie um cronograma e uma rotina para aprender em casa, mas permaneça flexível. Tenha horários de dormir consistentes e levante-se ao mesmo tempo, de segunda a sexta-feira. Estruture o dia para aprender, tempo livre, refeições e lanches saudáveis ​​e atividade física. Permita flexibilidade na programação. Não há problema em se adaptar com base no seu dia. Considere as necessidades e os ajustes necessários para a faixa etária de seu filho. A transição para estar em casa será diferente para crianças em idade pré-escolar, ensino fundamental e médio, alunos do ensino médio e do ensino médio. Converse com seu filho sobre as expectativas e como ele está se adaptando para ficar em casa versus na escola. Considere maneiras pelas quais seu filho pode ficar conectado com seus amigos sem passar um tempo pessoalmente. Procure maneiras de tornar o aprendizado divertido. Tenha atividades práticas, como quebra-cabeças, pintura, desenho e fabricação de objetos. O jogo independente também pode ser usado no lugar do aprendizado estruturado. Incentive as crianças a construir um forte a partir de lençóis ou praticar a contagem empilhando blocos. Pratique a escrita e a gramática escrevendo cartas aos membros da família. Essa é uma ótima maneira de conectar e limitar o contato pessoal. Comece um diário com seu filho para documentar esse momento e discutir a experiência compartilhada. Use audiolivros ou veja se sua biblioteca local está hospedando eventos de leitura virtuais ou ao vivo."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Escola-de-casa&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11786",
+      "previous_sibling": "node_11785"
+    },
+    {
+      "type": "standard",
+      "title": " Sintomas de COVID19",
+      "output": {
+        "video": {},
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os sintomas atuais relatados para pacientes com COVID-19 incluem doenças respiratórias leves a graves com febre, tosse e dificuldade em respirar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://olhardacidade.com.br/wp-content/uploads/2020/02/sintomas-coronav%C3%ADrus.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Se apresentar uns dos sintomas procure um centro de saúde mais próximo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Sintomas&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11776",
+      "previous_sibling": "node_11775"
+    },
+    {
+      "type": "standard",
+      "title": " Desinfecção de superfícies",
+      "output": {
+        "text": {
+          "values": [
+            "Limpe e desinfete as superfícies freqüentemente tocadas, como mesas, maçanetas, interruptores de luz, bancadas, pegas, mesas, telefones, teclados, sanitários, torneiras e pias. Se as superfícies estiverem sujas, limpe-as com detergente ou sabão e água antes da desinfecção. Para desinfetar, os desinfetantes domésticos mais comuns registrados na EPA funcionarão."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Desinfecao-de-superficie && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11772",
+      "previous_sibling": "node_11771"
+    },
+    {
+      "type": "standard",
+      "title": " Devo usar máscaras?",
+      "output": {
+        "text": {
+          "values": [
+            "A polêmica medida abraçada por prefeituras mineiras segue as recomendações atuais do Ministério da Saúde, que mudou suas instruções em relação ao uso de máscaras de proteção por pessoas que não apresentam sintomas do novo coronavírus.\n\nNo entanto, especialistas divergem com relação à eficácia do uso irrestrito do equipamento. A própria Organização Mundial da Saúde (OMS) admite que não existem atualmente estudos conclusivos que comprovem a eficiência de máscaras caseiras.\n\nRecentemente, a OMS reuniu em um guia orientações sobre a utilização de máscaras em países que, assim como o Brasil, recomendam o uso por pessoas sem sintomas. Mas em alguns municípios o uso se tornou obrigatório nas ruas como nos estados de SP e MG."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Uso-mascara&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11762",
+      "previous_sibling": "node_11761"
+    },
+    {
+      "type": "standard",
+      "title": " Risco para animais de estimação",
+      "output": {
+        "text": {
+          "values": [
+            "Embora esse vírus pareça ter surgido de uma fonte animal, agora está se espalhando de pessoa para pessoa. Não há razão para pensar que qualquer animal, incluindo animais de estimação, possa ser uma fonte de infecção por esse novo coronavírus. Até o momento, o CDC não recebeu nenhum relato de animais de estimação ou outros animais que adoeceram com COVID-19. No momento, não há evidências de que animais de companhia, incluindo animais de estimação, possam espalhar o COVID-19. No entanto, como os animais podem espalhar outras doenças para as pessoas, é sempre uma boa ideia lavar as mãos depois de estar perto dos animais."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#RiskToPets && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11783",
+      "previous_sibling": "node_11782"
+    },
+    {
+      "type": "standard",
+      "title": "De onde se originou?",
+      "output": {
+        "text": {
+          "values": [
+            "Os coronavírus são uma grande família de vírus. Alguns causam doenças nas pessoas e outros, como coronavírus canino e felino, infectam apenas animais. Raramente, os coronavírus animais que infectam animais surgiram para infectar pessoas e podem se espalhar entre elas. Suspeita-se que isso ocorreu pelo vírus que causa o COVID-19. A Síndrome Respiratória do Oriente Médio (MERS) e a Síndrome Respiratória Aguda Grave (SARS) são outros dois exemplos de coronavírus que se originaram de animais e depois se espalharam para as pessoas. Mais informações sobre a origem e a propagação do COVID-19 perguntam a este chatbot como o vírus se espalha."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Onde-comecou&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11754",
+      "previous_sibling": "node_7_1588781634067"
+    },
+    {
+      "type": "standard",
+      "title": "Socialização infantil",
+      "output": {
+        "text": {
+          "values": [
+            "A chave para diminuir a propagação do COVID-19 é limitar ao máximo as interações sociais. Os pais devem minimizar as datas dos jogos e, se mantidos, devem manter os grupos pequenos. Aconselhe as crianças mais velhas a sair em um pequeno grupo e a se encontrar fora e não dentro. É mais fácil manter e manter espaço entre outras pessoas em ambientes externos, como parques. Se você tiver pequenos encontros, considere sair com outra família ou amigo que também esteja tomando medidas extras para distanciar-se dos outros (ou seja, distanciamento social). Certifique-se de que as crianças pratiquem comportamentos preventivos todos os dias, como limpar e depois desinfetar as superfícies tocadas com frequência. Lembre-se, se as crianças se encontrarem fora da escola em grupos maiores, isso pode colocar todos em risco. Isso inclui férias de primavera e outras viagens em grupo. Os pais devem ajudar os filhos mais velhos a revisar os planos de férias da primavera, que incluem viagens não essenciais a áreas movimentadas. As informações sobre o COVID-19 em crianças são um pouco limitadas, mas os dados atuais sugerem que crianças com COVID-19 podem apresentar apenas sintomas leves. No entanto, eles ainda podem transmitir esse vírus para outras pessoas que possam estar em maior risco, incluindo adultos mais velhos e pessoas que têm condições médicas crônicas graves"
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Socializacao-criancas && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11785",
+      "previous_sibling": "node_11784"
+    },
+    {
+      "type": "standard",
+      "title": "Isenção de Dados (falta completar)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Este bot é preenchido com dados provenientes dos seguintes recursos:\n\nA maioria das respostas estáticas fornece informações encontradas na página de perguntas frequentes do CDC: https://www.cdc.gov/coronavirus/2019-ncov/faq.html\n\nA contagem de infecções e mortes é originária da Universidade Johns Hopkins por meio da seguinte API: https://www.covid19api.com/\n\nAs notícias dinâmicas são provenientes do feed de notícias do Watson Discovery. Informações adicionais sobre esse serviço podem ser encontradas aqui: https://www.ibm.com/watson/services/discovery-news/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "(#Fonte-dados && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_8_1585238958758",
+      "previous_sibling": "node_11787"
+    },
+    {
+      "type": "standard",
+      "title": " Como se espalha",
+      "output": {
+        "text": {
+          "values": [
+            "Este vírus foi detectado pela primeira vez na cidade de Wuhan, província de Hubei, China. As primeiras infecções foram ligadas ao mercado de animais vivos, mas o vírus agora está se espalhando de pessoa para pessoa. É importante observar que a disseminação de pessoa para pessoa pode ocorrer em um continuum. Alguns vírus são altamente contagiosos (como sarampo), enquanto outros são menos. O vírus que causa o COVID-19 parece estar se espalhando de maneira fácil e sustentável na comunidade (“comunidade espalhada”) em algumas áreas geográficas afetadas. A disseminação na comunidade significa que as pessoas foram infectadas com o vírus em uma área, incluindo algumas que não têm certeza de como ou onde foram infectadas."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Propagacao&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11753",
+      "previous_sibling": "node_1_1589651228864"
+    },
+    {
+      "type": "frame",
+      "title": "Casos confirmados e óbitos do Covid19 (falta completar)",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "estadosBR": "$estadosBR"
+          },
+          "result_variable": "retorno"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1589905760458"
+      },
+      "conditions": "#estatisticas",
+      "dialog_node": "node_2_1584976214871",
+      "previous_sibling": "node_4_1585096044203"
+    },
+    {
+      "type": "standard",
+      "title": "node_11749",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<?input.text?>"
+          },
+          "result_variable": "webhook_result_3"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_11749",
+      "previous_sibling": "node_11750"
+    },
+    {
+      "type": "standard",
+      "title": " Membro da família infectado",
+      "output": {
+        "text": {
+          "values": [
+            "A maioria das pessoas que recebem COVID-19 poderá se recuperar em casa. O CDC tem instruções para as pessoas que estão se recuperando em casa e seus cuidadores, incluindo: Fique em casa quando estiver doente, exceto para obter assistência médica. Se você desenvolver sinais de alerta de emergência para COVID-19, procure atendimento médico imediatamente. Os sinais de alerta de emergência incluem: dificuldade para respirar, dor ou pressão persistente no peito, nova confusão ou incapacidade de despertar, lábios ou rosto azulados. Esta lista não é completa. Consulte o seu médico para quaisquer outros sintomas graves ou preocupantes. Use uma sala e banheiro separados para os membros da família doentes (se possível). Limpe as mãos regularmente lavando as mãos com água e sabão ou usando um desinfetante para as mãos à base de álcool com pelo menos 60% de álcool. Forneça ao membro da sua família doente máscaras descartáveis ​​limpas para usar em casa, se disponível, para ajudar a evitar que o COVID-19 se espalhe para outras pessoas. Limpe a sala e o banheiro do doente, conforme necessário, para evitar contato desnecessário com a pessoa doente. Evite compartilhar itens pessoais, como utensílios, alimentos e bebidas."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Familiar-infectado&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11770",
+      "previous_sibling": "node_11769"
+    },
+    {
+      "type": "standard",
+      "title": " Risco para as Crianças",
+      "output": {
+        "text": {
+          "values": [
+            "Com base nas evidências disponíveis, as crianças não parecem estar em maior risco de COVID-19 do que os adultos. Enquanto algumas crianças e bebês estão doentes com COVID-19, os adultos compõem a maioria dos casos conhecidos até o momento. Você pode saber mais sobre quem está em maior risco de problemas de saúde se eles tiverem infecção por COVID-19 na página atual de Avaliação de risco do CDC."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Risco-para-criancas && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11764",
+      "previous_sibling": "node_11763"
+    },
+    {
+      "type": "standard",
+      "title": " Considerações sobre resultados negativos do teste",
+      "output": {
+        "text": {
+          "values": [
+            "Usando o teste de diagnóstico desenvolvido pelo CDC, um resultado negativo significa que o vírus que causa o COVID-19 não foi encontrado na amostra da pessoa. Nos estágios iniciais da infecção, é possível que o vírus não seja detectado. Para o COVID-19, um resultado de teste negativo para uma amostra coletada enquanto uma pessoa apresenta sintomas provavelmente significa que o vírus COVID-19 não está causando sua doença atual."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#TesteNegativoCOVID&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11778",
+      "previous_sibling": "node_11777"
+    },
+    {
+      "type": "standard",
+      "title": " Ações recomendadas pelo Departamento de Saúde",
+      "output": {
+        "text": {
+          "values": [
+            "Para recomendações e orientações sobre pessoas sob investigação; controle de infecção, incluindo orientação sobre equipamentos de proteção individual; atendimento domiciliar e isolamento; e investigação de caso, pergunte a este chatbot sobre informações para profissionais de saúde. Para obter informações sobre a coleta e remessa de amostras, pergunte a este chatbot sobre Informações para Laboratórios. Para obter informações para profissionais de saúde pública no COVID-19, pergunte a este chatbot sobre Informações para profissionais de saúde pública."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#AcoesRecomendadas&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11780",
+      "previous_sibling": "node_11779"
+    },
+    {
+      "type": "standard",
+      "title": " Saudações",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Saudacao && intents[0].confidence > 0.95",
+      "dialog_node": "node_11748",
+      "previous_sibling": "node_11788"
+    },
+    {
+      "type": "standard",
+      "title": " Produtos e Pacotes da China",
+      "output": {
+        "text": {
+          "values": [
+            "Ainda se sabe muito sobre o recém-surgido COVID-19 e como ele se espalha. Dois outros coronavírus surgiram anteriormente para causar doenças graves em pessoas (MERS-CoV e SARS-CoV). O vírus que causa o COVID-19 está mais geneticamente relacionado ao SARS-CoV do que ao MERS-CoV, mas ambos são betacoronavírus com origem em morcegos. Embora não tenhamos certeza de que esse vírus se comportará da mesma forma que o SARS-CoV e o MERS-CoV, podemos usar as informações obtidas com esses dois coronavírus anteriores para nos guiar. Em geral, devido à baixa capacidade de sobrevivência desses coronavírus nas superfícies, é provável que haja um risco muito baixo de propagação de produtos ou embalagens enviados por um período de dias ou semanas à temperatura ambiente. Pensa-se geralmente que os coronavírus se espalhem mais frequentemente por gotículas respiratórias. Atualmente, não há evidências para apoiar a transmissão do COVID-19 associado a mercadorias importadas e não houve nenhum caso de COVID-19 nos Estados Unidos associado a mercadorias importadas. As informações serão fornecidas no site da Doença de Coronavírus 2019 (COVID-19) assim que estiverem disponíveis."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#ProductsFromChina && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11763",
+      "previous_sibling": "node_11762"
+    },
+    {
+      "type": "standard",
+      "title": " O que é quarentena",
+      "output": {
+        "text": {
+          "values": [
+            "Quarentena significa separar uma pessoa ou grupo de pessoas que foram expostas a uma doença contagiosa, mas não desenvolveram doença (sintomas) de outras que não foram expostas, a fim de impedir a possível propagação dessa doença. A quarentena é geralmente estabelecida para o período de incubação da doença transmissível, que é o período durante o qual as pessoas desenvolveram doenças após a exposição. Para o COVID-19, o período de quarentena é de 14 dias a partir da última data de exposição, porque 14 dias é o período de incubação mais longo observado para os coronavírus semelhantes. Alguém que foi liberado da quarentena de COVID-19 não é considerado um risco de espalhar o vírus para outras pessoas porque elas não desenvolveram doenças durante o período de incubação."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#quarentena&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11756",
+      "previous_sibling": "node_11755"
+    },
+    {
+      "type": "standard",
+      "title": " Propagação comunitária (Contágio)",
+      "output": {
+        "text": {
+          "values": [
+            "A disseminação na população significa que as pessoas foram infectadas com o vírus em uma área, incluindo algumas que não têm certeza de como ou onde foram infectadas."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Contagio && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11759",
+      "previous_sibling": "node_11758"
+    },
+    {
+      "type": "standard",
+      "title": "Canal Atendimento médico (falta completar)",
+      "output": {
+        "video": {},
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ligue 0800 00 00 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 10,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "O vírus que causa a doença de coronavírus 2019 (COVID-19) não é o mesmo que os coronavírus que geralmente circulam entre humanos e causam doenças leves, como o resfriado comum. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Um diagnóstico com coronavírus 229E, NL63, OC43 ou HKU1 não é o mesmo que um diagnóstico COVID-19.  Os pacientes com COVID-19 serão avaliados e tratados diferentemente dos pacientes com diagnóstico comum de coronavírus."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://www.oblumenauense.com.br/wp-content/uploads/2020/02/coronavirus_29-02-201.jpg",
+            "response_type": "image"
+          }
+        ],
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#CanalAtendimento && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_1_1588809188116",
+      "previous_sibling": "node_11751"
+    },
+    {
+      "type": "standard",
+      "title": "Orientação para trabalho em casa",
+      "output": {
+        "text": {
+          "values": [
+            "Siga o conselho dos seus agentes de saúde locais. Fique em casa, se puder. Converse com seu empregador para discutir como trabalhar em casa, tirar uma licença se você ou alguém em sua casa ficar doente com sintomas de COVID-19 ou se a escola de seu filho for demitida temporariamente. Os empregadores devem estar cientes de que mais funcionários podem precisar ficar em casa para cuidar de crianças doentes ou de outros membros da família doentes do que o habitual em caso de um surto na comunidade."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#HomeOffice&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11775",
+      "previous_sibling": "node_11774"
+    },
+    {
+      "type": "standard",
+      "title": "Quais as doenças de risco na pandemia",
+      "output": {
+        "text": {
+          "values": [
+            "Pacientes asmáticos, pessoas com doenças do coração, fumantes, diabéticos. Além de idosos, esses são alguns dos grupos de risco que estão mais suscetíveis a pegar a covid-19."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Doenca && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_1_1589068407315",
+      "previous_sibling": "node_11756"
+    },
+    {
+      "type": "standard",
+      "title": "Informações sobre grupos estigmatizados",
+      "output": {
+        "text": {
+          "values": [
+            "As pessoas podem estar preocupadas ou ansiosas com amigos e parentes que moram ou visitam áreas onde o COVID-19 está se espalhando. Algumas pessoas estão preocupadas com a doença.\n\nMedo e ansiedade podem levar ao estigma social, por exemplo, em relação a chineses ou outros asiáticos americanos ou pessoas em quarentena.\n\nEstigma é discriminação contra um grupo identificável de pessoas, um lugar ou uma nação\nO estigma está associado à falta de conhecimento sobre como o COVID-19 se espalha, à necessidade de culpar alguém, ao medo de doenças e morte e às fofocas que espalham boatos e mitos.\n\nO estigma magoa a todos, criando mais medo ou raiva para com as pessoas comuns, em vez da doença que está causando o problema."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#EstimaCulpa&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11779",
+      "previous_sibling": "node_11778"
+    },
+    {
+      "type": "standard",
+      "title": "Nos níveis de infecção (falta completar)",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "type": "api",
+            "country": "Brazil"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Casos-confirmados",
+      "dialog_node": "node_1_1588768984050",
+      "previous_sibling": "node_11759"
+    },
+    {
+      "type": "standard",
+      "title": " Quais sintomas são mostrados em crianças?",
+      "output": {
+        "text": {
+          "values": [
+            "Os sintomas do COVID-19 são semelhantes em crianças e adultos. No entanto, crianças com COVID-19 confirmado geralmente apresentam sintomas leves. Os sintomas relatados em crianças incluem sintomas do tipo resfriado, como febre, coriza e tosse. Vômitos e diarréia também foram relatados. Ainda não se sabe se algumas crianças podem estar em maior risco de doença grave, por exemplo, crianças com condições médicas subjacentes e necessidades especiais de saúde. Há muito mais a ser aprendido sobre como a doença afeta as crianças."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Sintomas-em-criancas&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11766",
+      "previous_sibling": "node_11765"
+    },
+    {
+      "type": "standard",
+      "title": "Quanto tempo uma pessoa leva para recuperar",
+      "output": {
+        "text": {
+          "values": [
+            "Os sintomas mais comuns da COVID-19 podem aparecer de dois a 14 dias após a exposição.\n\nPacientes com sintomas leves, como febre e tosse seca e que não apresentam sintomas respiratórios como falta de ar, podem e devem ser tratados em casa, evitando exposição desnecessária e a saturação do sistema de saúde. Se você está com sintomas de gripe, fique em casa por 14 dias e siga as orientações do Ministério da Saúde para o isolamento domiciliar. Só procure um hospital de referência se estiver com falta de ar."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#Recuperacao&& intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_2_1589068944876",
+      "previous_sibling": "node_1_1589068407315"
+    },
+    {
+      "type": "standard",
+      "title": " Preparação para a família",
+      "output": {
+        "text": {
+          "values": [
+            "Crie um plano de ação familiar para ajudar a proteger sua saúde e a saúde de quem você gosta no caso de um surto de COVID-19 em sua comunidade: converse com as pessoas que precisam ser incluídas em seu plano e discuta o que faça se ocorrer um surto de COVID-19 em sua comunidade Planeje maneiras de cuidar de pessoas com maior risco de complicações sérias, principalmente idosos e pessoas com condições médicas crônicas graves, como doença cardíaca, pulmonar ou renal. Verifique se eles têm acesso a várias semanas de medicamentos e suprimentos, caso precise ficar em casa por períodos prolongados. Conheça seus vizinhos e descubra se seu bairro possui um site ou página de mídia social para se manter conectado. Crie uma lista de organizações locais com as quais você e sua família podem entrar em contato, caso precise de acesso a informações, serviços de saúde, suporte e recursos. Crie uma lista de contatos de emergência de familiares, amigos, vizinhos, motoristas de carona, profissionais de saúde, professores, empregadores, departamento de saúde pública local e outros recursos da comunidade."
+          ],
+          "selection_policy": "sequential"
+        },
+        "video": {},
+        "disclaimers": [
+          "SOURCE: https://www.cdc.gov/coronavirus/2019-ncov/faq.html"
+        ]
+      },
+      "context": {},
+      "conditions": "(#PrepareFamily && intents[0].confidence > $low_confidence)",
+      "dialog_node": "node_11768",
+      "previous_sibling": "node_11767"
+    },
+    {
+      "type": "standard",
+      "title": " #Configurar limites de confiança",
+      "output": {},
+      "context": {
+        "out_of_bounds": 0.2,
+        "low_confidence": 0.45
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_11789"
+      },
+      "conditions": "conversation_start",
+      "dialog_node": "node_11788"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "COVID-19 FAQ",
+  "language": "pt-br",
+  "description": "Pandemia FAQ"
+}
